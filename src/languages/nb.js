@@ -1,0 +1,472 @@
+﻿var translation_nb = {
+    controllers: {
+        datepicker: {
+            buttons: {
+                close: 'Close',
+                current: 'Current',
+                clear: 'Clear',
+            },
+        },
+        cars_list_availability: {
+            titles: {
+                new: 'New',
+                available: 'Available',
+            },
+        },
+    },
+    directives: {
+        profileImage: {
+            verifications: {
+                borrowerNot: 'Not a borrower',
+                borrowerVerified: 'Verified as a borrower',
+                borrowerUnverified: 'Not yet verified as a borrower',
+                carOwnerNot: 'Not a car owner',
+                carOwnerVerified: 'Verified as a car owner',
+                carOwnerUnverified: 'Not yet verified as a car owner'
+            },
+        },
+        loader: {
+            toobusy: 'still working on it...'
+        },
+    },
+    filters: {
+        displayExtendedDate: {
+            timeSpans: {
+                now: 'Just now'
+            },
+        },
+        displayDateDuration: {
+            never: 'never',
+        },
+        displayBookingUsageDuration: {
+            lessThanMinute: 'less than a minute',
+            day: {
+                singular: 'day',
+                plural: 'days',
+            },
+            hour: {
+                singular: 'hr',
+                plural: 'hrs',
+            },
+            minute: {
+                singular: 'm',
+                plural: 'm',
+            },
+        },
+        displayDistance: {
+            meter: {
+                abbrev: 'm',
+                singular: 'meter',
+                plural: 'meters',
+            },
+        },
+    },
+    referenceData: {
+        vehicles: {
+            transmission: {
+                auto: 'Automatic',
+                manual: 'Manual',
+            }
+        },
+        pronouns: {
+            theirs: 'Their',
+            your: 'Your'
+        }
+    },
+    pages: {
+        errors: {
+            503: {
+                title: '{{name}} Getting a Tune Up!',
+                retryAfter: {
+                    time: 'We should be back up in {{hours}} hrs',
+                    none: 'We should be back up shortly',
+                },
+                message: {
+                    first:
+                        '{{name}} is currently unavailable while we perform some scheduled maintenance. We appologise for the inconvenience.',
+                    second:
+                        'Additional services like using the {{name}} app to lock and unlock your car will also be unavailable.',
+                },
+                support: {
+                    title: 'Emergency Contact',
+                    message: 'You can still contact technical support for all emergency enquiries.',
+                    phone: {
+                        description: 'Our Phone Number',
+                    },
+                    email: {
+                        description: 'Our Email Address',
+                    },
+                },
+            }
+        },
+        layout: {
+            navigation: {
+                users: {
+                    user: {
+                        settings: {
+                            account: 'Account Details',
+                        },
+                    },
+                    login: 'Sign In',
+                    invite: 'Join {{name}}',
+                    logout: 'Sign Out',
+                },
+                operations: {
+                    home: 'Operations'
+                },
+                cars: {
+                    list: 'My Cars',
+                    search: 'Find a Car',
+                    register: 'List a Car',
+                },
+                rides: {
+                    bookings: 'My Bookings',
+                },
+                howitworks: {
+                    home: 'How It Works',
+                },
+                notifications: 'Notifications',
+                about: 'About Us',
+                contact: 'Contact',
+                alldocs: 'Documents',
+                fees: 'Fees',
+                privacy: 'Privacy',
+                termsofservice: {
+                    terms: 'Terms of Service',
+                },
+                mobileapp: 'Application Mobile',
+                support: 'Support',
+                headings: {
+                    account: 'Account',
+                    general: 'General',
+                    important: 'Important',
+                },
+                app: {
+                    install: 'Install App'
+                }
+            },
+            social: {
+                message: 'Follow Us',
+                facebook: 'Facebook',
+                twitter: 'Twitter',
+                linkedin: 'LinkedIn',
+                instagram: 'Instagram',
+                blog: 'Blog',
+            },
+            powered: 'Powered By',
+        },
+        connectivity: {
+            message: 'Your connection has been lost.',
+            retry: 'Retry',
+        },
+        browsercompat: {
+            message: 'We currently do not support your browser. For the best experience we recommend using',
+            advice: 'For the best experience we recommend using',
+            reason: 'Why don\'t we support other browsers?',
+            justification: 'Supporting all your favorite browsers is a big deal. We are a small business. We have real-world constraints. We have made huge investments in making this App as stable and error free as we can. We continuously run thousands of tests which take many hours to complete to make sure the App you are now using works as you would expect. We can only reliably do that in the latest versions of Chrome. Chrome is the most widely adopted browser on the internet today, and we also think it is the most secure browser today. We rely on many of its security features to keep you safe while using this App. If you want to use another browser, we respect that. We just cannot make any statements or guarantees that this App works well in those browsers, nor that you are as well protected using those browsers. Ultimately, it is your choice.'
+        },
+        versionupdateprompt: {
+            message: 'There is a new version of this app available. Click here to update.',
+            button: 'Update',
+        },
+        home: {
+            home: {
+                message: 'Redirecting you to your home page',
+                bookings: 'Checking for current bookings',
+                takings: 'Checking for current trips',
+            },
+            support: {
+                title: 'Support',
+                usage: {
+                    title: 'Car usage issues',
+                },
+                insurer: {
+                    title: 'Insurance Claims',
+                    claimForm: {
+                        title: 'Insurance Claim Form',
+                    }
+                },
+                tech: {
+                    title: 'Tech Support / Other',
+                    phone: {
+                        description: 'Our Phone Number',
+                    },
+                    email: {
+                        description: 'Our Email Address',
+                    },
+                },
+                social: {
+                    title: 'Contact Us',
+                    facebook: {
+                        title: 'Facebook',
+                    },
+                    twitter: {
+                        title: 'Twitter',
+                    },
+                    linkedin: {
+                        title: 'LinkedIn',
+                    },
+                    instagram: {
+                        title: 'Instagram',
+                    },
+                    blog: {
+                        title: 'Our Blog',
+                    },
+                    other: {
+                        title: 'Our Support',
+                    },
+                },
+            },
+        },
+        users: {
+            invite: {
+                title: 'Join',
+                email: {
+                    label: 'Email',
+                    placeholder: 'Your email address',
+                    validations: {
+                        required: 'Your email address is necessary',
+                        pattern: 'This is not a valid email address',
+                        uniqueemail: 'This email address is already registered to an existing account',
+                    },
+                },
+                firstname: {
+                    label: 'First Name',
+                    placeholder: 'Your first name',
+                    validations: {
+                        required: 'Your first name is necessary',
+                        pattern: 'Your first name contains invalid characters or is too long',
+                    },
+                },
+                lastname: {
+                    label: 'Last Name',
+                    placeholder: 'Your last name',
+                    validations: {
+                        required: 'Your last name is necessary',
+                        pattern: 'Your last name contains invalid characters or is too long',
+                    },
+                },
+                command1: {
+                    label: 'Join Now',
+                    loader: 'sending your invitation...',
+                },
+            },
+            invited: {
+                title: 'You\'ve Got Mail!',
+                instruction: {
+                    line1: 'We\'ve just sent an email to:',
+                    line2: 'Click the link in the email to finish creating your account.',
+                    line3:
+                        'If you have not found the email in your inbox, first check your junk email folder, or you can',
+                    link: 'try again'
+                },
+            },
+            register: {
+                title: 'Create an Account',
+                alert: {
+                    line1: 'To join {{name}} follow the instructions given in your confirmation email.',
+                    line2: 'If you didn\'t receive an email check your spam/junk folder or to request another email',
+                    link: 'click here',
+                },
+                command1: {
+                    error: {
+                        alert: {
+                            line1:
+                                'There was a problem setting up your account. Please click the link included in your confirmation email again, or',
+                            link: 'request another',
+                        },
+                    },
+                    loader: 'setting up your account...'
+                },
+                headings: {
+                    first: 'Your Details',
+                    second: 'Sign In Details',
+                },
+                firstname: {
+                    placeholder: 'Your first name',
+                    validations: {
+                        required: 'Your first name is necessary',
+                        pattern: 'Your first name contains invalid characters or is too long',
+                    },
+                },
+                lastname: {
+                    placeholder: 'Your last name',
+                    validations: {
+                        required: 'Your last name is necessary',
+                        pattern: 'Your last name contains invalid characters or is too long',
+                    },
+                },
+                username: {
+                    placeholder: 'Email Address',
+                    validations: {
+                        required: 'Your email address is necessary',
+                        pattern: 'This is not a valid email address',
+                        uniqueemail: 'This email address is already registered to an existing account',
+                    },
+                },
+                password: {
+                    placeholder: 'Password',
+                    validations: {
+                        required: 'Your password is necessary.',
+                        pattern: 'Your password must be {{chars}} or more characters long.'
+                    },
+                },
+                confirmpassword: {
+                    placeholder: 'Confirm Password',
+                    validations: {
+                        required: 'You must confirm the password',
+                        pattern: 'You must confirm the password',
+                        validator: 'This must match the password'
+                    },
+                },
+                convictions: {
+                    label: {
+                        text: 'Have you ever had any convictions?',
+                    },
+                    options: {
+                        option1: '(please select an answer)',
+                        option2: 'No - I have not',
+                        option3: 'Yes - I have had convictions',
+                        validations: {
+                            required: 'You must provide a Yes or No answer'
+                        },
+                    },
+                    details: {
+                        placeholder: 'Please provide full details (including dates and circumstances)',
+                        validations: {
+                            required: 'You must provide full details (including dates and circumstances)',
+                            pattern: 'Contains invalid characters or exceeds {{chars}} characters.'
+                        },
+                        remaining: '{{chars}} characters remaining'
+                    }
+                },
+                terms: {
+                    label1: 'I agree to the',
+                    link1: 'terms of service',
+                    label2: 'and',
+                    link2: 'privacy policy'
+                },
+                command2: {
+                    label: 'Create Now',
+                    errors: {
+                        invalid: 'This registration is invalid.',
+                        register: 'creating a new account for you',
+                    },
+                    loader: 'creating your account',
+                },
+
+            },
+            login: {
+                forgot: 'Forgot Password?',
+                notmember: 'Not a Member?',
+                signup: 'Sign Up For Free',
+                member: 'Have an Account?',
+                signin: {
+                    title: 'Sign In',
+                    salutation: 'Welcome',
+                    email: {
+                        label: 'Email',
+                        placeholder: 'Your email address',
+                        validations: {
+                            required: 'Your email address is necessary',
+                            pattern: 'This is not a valid email address',
+                            uniqueemail: 'This email address is already registered to an existing account.',
+                        },
+                    },
+                    password: {
+                        label: 'Password',
+                        placeholder: 'Password',
+                        validations: {
+                            required: 'Your password is necessary.',
+                            pattern: 'Your password must be {{chars}} or more characters long.'
+                        },
+                    },
+                    invalidcredentials: 'The username or password you entered is invalid. Please try again.',
+                    command1: {
+                        label: 'Next',
+                        loader: 'checking for your account...',
+                    },
+                    command2: {
+                        label: 'Sign in',
+                        loader: 'signing you in...',
+                    },
+                },
+                locked: {
+                    title: 'Sorry!',
+                    alert: {
+                        heading: 'Your account is Locked!',
+                        line1: 'You will be unable to sign-in to your account or access this site.',
+                        line2:
+                            'If this has happened because you entered your password wrong too many times, you can try signing in again in a few minutes.',
+                    },
+                    body: 'If you believe this has happened in error, please contact support to report it.',
+                }
+            },
+            settings: {
+                driverslicense: {
+                    heading: 'Last opp Førerkort',
+                    verified1: 'Ditt Førerkort er Godkjent!',
+                    verified2: 'Hvis du oppdaterer førerkortet ditt så må det godkjennes på nytt.',
+                    jurisdiction: {
+                        instruction: 'Hva er nasjonaliteten på førerkortet?',
+                        label: 'Førerkort Nasjonalitet',
+                        validations: {
+                            required: 'Nasjonaliteten til førerkortet må fylles inn.',
+                        },
+                        note1: 'Hvis landet ikke finnes i listen over så støttes antakelig ikke ditt førerkort. Vennligst ta kontakt med oss.',
+                        note2: 'Support',
+                        note3: 'for flere detaljer',
+                    },
+                    photos: {
+                        instruction: {
+                            title: 'Instruksjoner',
+                            content: 'Vennligst ta et bilde av både forsiden og baksiden av ditt førerkort, deretter last det opp nedenfor.',
+                        },
+                        front: {
+                            label: 'Forside',
+                            image: 'Forsiden på ditt førerkort',
+                        },
+                        back: {
+                            label: 'Bakside',
+                            image: 'Baksiden av ditt førerkort',
+                        },
+                        units: '{{dimension}} x {{dimension}} pixels max',
+                        uploadbutton: {
+                            loader: 'laster opp bilde',
+                            exists: 'Bytt',
+                            notexists: 'Legg til bilde'
+                        },
+                        loader: 'Laster opp ditt førerkort',
+                    },
+                    details: {
+                        instruction:
+                            'Vennligst fyll inn detaljene, akkurat som de står i førerkortet ditt, i feltene nedenfor.',
+                    },
+                    dateofbirth: {
+                        label: 'Fødselsdato',
+                    },
+                    expiry: {
+                        label: 'Gyldig til',
+                    },
+                    number: {
+                        label: 'Førerkortnummer',
+                        validations: {
+                            pattern: 'Ikke et gyldig førerkortnummer'
+                        }
+                    },
+                    classes: {
+                        label: 'Førerkortklasser',
+                        validations: {
+                            pattern: 'Ikke gyldige klasser'
+                        }
+                    },
+                    loader: 'oppdaterer førerkortdetaljene dine',
+                    commands: {
+                        submit: 'Oppdater',
+                        cancel: 'Avbryt'
+                    }
+                }
+            }
+        }
+    },
+};
