@@ -38,13 +38,18 @@ We will then review your changes, and merge them into Hourfleet, and release the
 
 > Note: Hourfleet releases are frequent, and can be tracked [here](https://feedback.hourfleet.com/changelog)
 
-## How It Works
+## How It Works 
 
 Hourfleet will use the translations provided on this site
 
-> Note: Updates to changes made on this site will be made each release. You can follow the releases of Hourfleet [here](https://feedback.hourfleet.com/changelog)
+
 
 When Hourfleet customers go to use the web application, assuming the language of their browser is set to a language that we have a language file for in this repository, they will see the translated phrases.
+
 If a phrases is missing or empty from the language file, or the language file is missing altogether, then the default language file (`en`) will be used instead.
 
-If you see an English phrase in the application, that indicates that a new translation is required. You will need to provide that value in your chosen language file.
+If you see an English phrase in your app, that indicates one of two things: 
+- A new translation is required. You will need to provide that value in your chosen language file. 
+- That part of Hourfleet has not yet been enhanced with local language support. We have a large product development backlog, and this feature expansion as part of that overall work. Please contact us if there are pages you would like to have include local language support
+
+> Note: Updates to changes made on this site will be made each release. You can follow the releases of Hourfleet [here](https://feedback.hourfleet.com/changelog). The introduction of local language support is therefore an incremental process. Each time we fit local language support to new pages in Hourfleet, you'll need to re-visit your local language file and enter the new translations.
